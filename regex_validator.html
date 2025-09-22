@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALU Regex Validator</title>
+  <link rel="stylesheet" href="regex_style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Regex Validator</h1>
+    
+    <label for="validatorSelect">Choose Validator:</label>
+    <select id="validatorSelect">
+      <option value="email">Email</option>
+      <option value="phone">Phone Number</option>
+      <option value="url">URL</option>
+      <option value="credit_card">Credit Card</option>
+      <option value="time">Time (HH:MM 24hr)</option>
+      <option value="html_tag">HTML Tag</option>
+      <option value="hashtag">Hashtag</option>
+      <option value="currency">Currency</option>
+    </select>
+
+    <input type="text" id="singleInput" placeholder="Enter value to validate...">
+    <button onclick="validateInput()">Validate</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="regex_pattern.js"></script>
+</body>
+</html>
