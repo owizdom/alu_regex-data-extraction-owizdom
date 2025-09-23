@@ -61,7 +61,8 @@ It supports various use cases:
 - CSS: For styling and layout (`regex_style.css`).
 - JavaScript: For regex pattern matching and UI functionality (`regex_pattern.js`).
 
-![Uploading Screenshot 2025-09-23 at 18.41.40.png…]()
+<img width="1919" height="852" alt="Screenshot 2025-09-23 at 18 41 40" src="https://github.com/user-attachments/assets/7db1f1cd-80fc-45fc-b239-40d09c70e883" />
+
 
 
 ## Project Structure
