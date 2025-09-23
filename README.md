@@ -61,6 +61,9 @@ It supports various use cases:
 - CSS: For styling and layout (`regex_style.css`).
 - JavaScript: For regex pattern matching and UI functionality (`regex_pattern.js`).
 
+![Uploading Screenshot 2025-09-23 at 18.41.40.png…]()
+
+
 ## Project Structure
 - `regex_validator.html` — Main page
 - `regex_style.css` — Styles
